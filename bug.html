@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <script>
+    //Incorrect use of DOM manipulation will lead to unexpected behavior or errors
+    document.getElementByTagName('p')[0].style.color = 'red';
+    document.getElementByTagName('p')[1].style.display = 'none';
+  </script>
+</body>
+</html>
